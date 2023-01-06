@@ -15,6 +15,7 @@ let posts = [
 
 // Enter code to stringify the `posts` variable here:
 
+const postsString = JSON.stringify(posts);
 
 let article = {
   id: "386",
@@ -23,5 +24,6 @@ let article = {
   date: "2021-12-09 00:53:59" 
 };
 
+const articleString = JSON.stringify(article);
 // Enter code to stringify the `article` variable here:
 
